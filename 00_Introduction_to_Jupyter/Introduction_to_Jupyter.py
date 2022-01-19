@@ -61,7 +61,7 @@ int main(){
 # ### Build and Run
 # Select the cell below and click run ▶ to compile and execute the code above:
 
-# ! chmod 755 q; chmod 755 run_hello.sh;if [ -x "$(command -v qsub)" ]; then ./q run_hello.sh; else run_hello.sh; fi
+# ! chmod 755 q; chmod 755 ./run_hello.sh;if [ -x "$(command -v qsub)" ]; then ./q run_hello.sh; else ./run_hello.sh; fi
 
 # <html><body><span style="color:green"><h1>Get started on Module 1</h1></span></body></html>
 #
