@@ -1,0 +1,6 @@
+---
+
+CompileFlags:                     # Tweak the parse settings
+  Add: [-xc++, -I/glob/development-tools/versions/oneapi/2022.1.1/oneapi/compiler/2022.0.1/linux/include/sycl, -I/opt/intel/oneapi/compiler/latest/linux/include/sycl, -Wall, -Wcast-align, -Wcast-qual, -Wconversion, -Wctor-dtor-privacy, -Wdeprecated-copy-dtor, -Wdouble-promotion, -Wduplicated-branches, -Wduplicated-cond, -Weffc++, -Wextra, -Wextra-semi, -Wfatal-errors, -Wfloat-equal, -Wformat=2, -Wformat-signedness, -Wformat-truncation=2, -Wlogical-op, -Wno-init-list-lifetime, -Wnull-dereference, -Wold-style-cast, -Woverloaded-virtual, -Wpedantic, -Wshadow, -Wsign-conversion, -Wsign-promo, -Wswitch-default, -Wswitch-enum, -Wundef, -Wunused-macros, -Wuseless-cast, -lstdc++, -march=native, -std=c++17, -pedantic-errors, -g, -gdwarf-4, -DDEBUG -O0, -fstrict-aliasing, -fasynchronous-unwind-tables, -fsanitize=address, -fsanitize=undefined, -fno-sanitize-recover=all, -fsanitize=float-divide-by-zero, -fsanitize=float-cast-overflow, -fno-sanitize=null, -fno-sanitize=alignment, -fno-omit-frame-pointer, -fstack-clash-protection, -fstack-protector-all, -fstack-protector-strong]             # treat all files as C++, enable more warnings
+
+# vim: ft=yaml
